@@ -340,9 +340,30 @@ nav ul li a {
     padding: 0 1rem;
 }
 
+/* Achievements */
+#achievement {
+    padding: var(--SectionPadding);
+}
+
+.scroll-container {
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 5px;
+}
+
+.scroll-container img {
+    padding: 5px;
+    max-width: 500px;
+    height: auto;
+}
+
+
+
 /* Contact  */
 #contact {
     padding: var(--SectionPadding);
+    background: var(--SecondaryBackgroundColor);
 }
 .contact {
     display: grid;
@@ -418,7 +439,6 @@ nav ul li a {
 /* Footer */
 footer {
     padding: 4rem 0;
-    background: var(--SecondaryBackgroundColor);
     text-align: center;
 }
 
